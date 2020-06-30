@@ -77,7 +77,7 @@ var
 begin
   slSentencas := TStringList.Create;
   try
-    slSentencas.AddStrings(['acab','aaacabbb','aaacabbb','aaaccb','aaaccb','aabb']);
+    slSentencas.AddStrings(['acab','aaacabbb','accbddab','accbcbddddab','aaaccb','aabb']);
     edt_sentenca.Text := slSentencas[random(6)];
   finally
     slSentencas.Free;
